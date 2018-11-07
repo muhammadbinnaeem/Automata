@@ -1,0 +1,73 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="loader">
+            <img src="images/8YsAmq3.gif" alt="">
+        </div>
+        <div style="text-align: center">
+            <input type="text" name="word" id="word">
+            <button id="run">RUN</button>
+            
+        </div>
+        <p class="text">Accept all words in which second last alphabet is b</p>
+     
+        <div class="s1">
+                <div class="color_green"></div><span class="color_desc">Initial State</span>
+                <div class="clear"></div>
+                <div class="color_red"></div><span class="color_desc">Final State</span>
+        </div>
+       
+        <div class="frame">
+            <div class="alphabet alpha_final1_loop">b</div>
+            <div class="alphabet alpha_initial_loop">a</div>
+            <div class="alphabet alpha_initial_to_middle">b</div>
+            <div class="alphabet alpha_middle_to_final1">b</div>
+            <div class="alphabet alpha_final1_to_final2">a</div>
+            <div class="alphabet alpha_final2_to_initial">a</div>
+            <div class="alphabet alpha_final2_to_middle">b</div>
+            <div class="alphabet alpha_middle_to_final2">a</div>
+            
+            <img src="images/arrow.png" alt="nothing" class="arrow_initial_to_middle">
+            <img src="images/arrow.png" alt="nothing" class="arrow_middle_to_final1">
+            <img src="images/arrow.png" alt="nothing" class="arrow_middle_to_final2">
+            <img src="images/arrow.png" alt="nothing" class="arrow_final1_to_final2">
+            <img src="images/arrow.png" alt="nothing" class="arrow_final2_to_initial">
+            <img src="images/arrow.png" alt="nothing" class="curve_arrow_final2_1">
+            <img src="images/arrow.png" alt="nothing" class="curve_arrow_final2_2">
+            <img src="images/round_arrow.png" alt="nothing" class="round_arrow_initial">
+            <img src="images/round_arrow.png" alt="nothing" class="round_arrow_final1">
+        
+            <section class="circle initial ">
+                    <figure class="ball bubble green"></figure>
+            </section>
+            <section class="circle middle">
+                    <figure class="ball bubble yellow"></figure>
+            </section>
+            <section class="circle final1 ">
+                    <figure class="ball bubble red"></figure>
+            </section>
+            <section class="circle final2 ">
+                    <figure class="ball bubble red"></figure>
+            </section>
+            <div id="apDiv8" class="boxer blue"></div>
+        </div>
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Modal Header</h2>
+      </div>
+     
+    </div>
+  
+  </div>
+        <script  src="js/jquery.js"></script>
+        <script  src="js/script.js"></script>
+ 
+    </body>
+</html>
